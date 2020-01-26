@@ -1,0 +1,19 @@
+biomeNoise: noise/MagmaVent
+temperatureRange: ExtremelyHot
+minChildCount: 4
+pdWeight: 0.75
+density:
+  min: 35
+  max: 45
+avoidRadius: 50.0
+sampleBehaviour: PoissonDisk
+borderOverride: hardToDig
+biomes:
+  - name: biomes/Magma/IronTube
+    weight: 1
+    #overrides:
+    #  massMultiplier: 50
+tags:
+  - IgnoreCaveOverride
+  - NoGlobalFeatureSpawning
+zoneType: MagmaCore

@@ -20,4 +20,14 @@ TerrainBiomeLookupTable:
       bandSize: 0.25
     - content: Ice
       bandSize: 0.2
-
+    Methane:
+    - content: Granite
+      bandSize: 0.25
+    - content: SedimentaryRock
+      bandSize: 0.05
+    - content: SolidCarbonDioxide
+      bandSize: 0.1
+    - content: Hydrogen
+      bandSize: 0.3
+    - content: LiquidMethane
+      bandSize: 0.5

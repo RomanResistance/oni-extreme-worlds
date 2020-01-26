@@ -1,0 +1,20 @@
+biomeNoise: noise/subworldOcean
+temperatureRange: 
+  min: 92.0
+  max: 108.0
+density:
+  min: 10
+  max: 15
+avoidRadius: 20.0
+minChildCount: 4
+sampleBehaviour: PoissonDisk
+biomes:
+  - name: biomes/Ocean/Methane
+tags:
+  - IgnoreCaveOverride
+  - River
+  - NoGlobalFeatureSpawning
+pointsOfInterest:
+featureTemplates:
+  # feature_geyser_generic: 2
+zoneType: Ocean

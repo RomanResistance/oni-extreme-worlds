@@ -1,0 +1,15 @@
+TerrainBiomeLookupTable:
+  # keys to remove from in-memory structure when this file is loaded
+  remove: [] 
+  # elements to add from in-memory structure when this file is loaded
+  add:
+    CopperTube:
+    - content: Obsidian
+      bandSize: 0.8
+    - content: MoltenCopper
+      bandSize: 0.2
+    IronTube:
+    - content: Obsidian
+      bandSize: 0.8
+    - content: MoltenIron
+      bandSize: 0.2

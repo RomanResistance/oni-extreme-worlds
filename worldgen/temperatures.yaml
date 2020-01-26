@@ -8,3 +8,6 @@ add:
   LudicrouslyCold:
     min: 15.0
     max: 60.0
+  LiquidMethaneCold:
+    min: 92.0
+    max: 108.0
