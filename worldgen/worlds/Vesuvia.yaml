@@ -15,24 +15,24 @@ layoutMethod: PowerTree # Note: We need to add weights to the items in the layer
 
 # List all the zone files to load
 subworldFiles:
-  - name: subworlds/magma/ForestStart
-  - name: subworlds/magma/SandstoneMiniMetal
-  - name: subworlds/magma/SandstoneMiniWater
-  - name: subworlds/magma/Sandstone
-  - name: subworlds/magma/HotMarsh
-  - name: subworlds/magma/Jungle
-  - name: subworlds/magma/Frozen
-  - name: subworlds/magma/Ocean
+  - name: subworlds/LVAFLR/ForestStart
+  - name: subworlds/LVAFLR/SandstoneMiniMetal
+  - name: subworlds/LVAFLR/SandstoneMiniWater
+  - name: subworlds/LVAFLR/Sandstone
+  - name: subworlds/LVAFLR/HotMarsh
+  - name: subworlds/LVAFLR/Jungle
+  - name: subworlds/LVAFLR/Frozen
+  - name: subworlds/LVAFLR/Ocean
   - name: subworlds/Impenetrable
   - name: subworlds/magma/Bottom
   - name: subworlds/magma/MagmaVent
     weight: 4
-  - name: subworlds/magma/OilPockets
+  - name: subworlds/LVAFLR/OilPockets
   - name: subworlds/space/Space
   - name: subworlds/space/SurfaceCrags
     weight: 4
 
-startSubworldName: subworlds/magma/ForestStart
+startSubworldName: subworlds/LVAFLR/ForestStart
 startingBaseTemplate: sandstoneBase
 
 globalFeatureTemplates:
@@ -46,61 +46,61 @@ unknownCellsAllowedSubworlds:
   - tagcommand: Default
     command: Replace
     subworldNames:
-      - subworlds/magma/ForestStart
+      - subworlds/magma/LVAFLR_ForestStart
   - tagcommand: DistanceFromTag
     tag: AtStart
     minDistance: 1
     maxDistance: 1
     command: Replace
     subworldNames:
-      - subworlds/magma/SandstoneMiniMetal
-      - subworlds/magma/SandstoneMiniWater
+      - subworlds/LVAFLR/SandstoneMiniMetal
+      - subworlds/LVAFLR/SandstoneMiniWater
   - tagcommand: DistanceFromTag
     tag: AtStart
     minDistance: 2
     maxDistance: 2
     command: Replace
     subworldNames:
-      - subworlds/magma/HotMarsh
-      - subworlds/magma/Jungle
+      - subworlds/LVAFLR/HotMarsh
+      - subworlds/LVAFLR/Jungle
   - tagcommand: DistanceFromTag
     tag: AtStart
     minDistance: 3
     maxDistance: 3
     command: Replace
     subworldNames:
-      - subworlds/magma/HotMarsh
-      - subworlds/magma/Jungle
-      - subworlds/magma/Ocean
-      - subworlds/magma/Frozen
+      - subworlds/LVAFLR/HotMarsh
+      - subworlds/LVAFLR/Jungle
+      - subworlds/LVAFLR/Ocean
+      - subworlds/LVAFLR/Frozen
   - tagcommand: DistanceFromTag
     tag: AtStart
     minDistance: 4
     maxDistance: 4
     command: Replace
     subworldNames:
-      - subworlds/magma/HotMarsh
-      - subworlds/magma/Jungle
-      - subworlds/magma/Ocean
-      - subworlds/magma/Frozen
+      - subworlds/LVAFLR/HotMarsh
+      - subworlds/LVAFLR/Jungle
+      - subworlds/LVAFLR/Ocean
+      - subworlds/LVAFLR/Frozen
   - tagcommand: DistanceFromTag
     tag: AtStart
     minDistance: 5
     maxDistance: 999
     command: Replace
     subworldNames:
-      - subworlds/magma/HotMarsh
-      - subworlds/magma/Jungle
-      - subworlds/magma/Ocean
-      - subworlds/magma/Frozen
-      - subworlds/magma/SandstoneStart
+      - subworlds/LVAFLR/HotMarsh
+      - subworlds/LVAFLR/Jungle
+      - subworlds/LVAFLR/Ocean
+      - subworlds/LVAFLR/Frozen
+      - subworlds/LVAFLR/SandstoneStart
   - tagcommand: DistanceFromTag
     tag: AtDepths
     minDistance: 1
     maxDistance: 2
     command: Replace
     subworldNames:
-      - subworlds/magma/OilPockets
+      - subworlds/LVAFLR/OilPockets
   - tagcommand: AtTag
     tag: AtSurface
     command: Replace
